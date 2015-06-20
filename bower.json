@@ -1,0 +1,25 @@
+{
+  "name": "localforage-silo",
+  "version": "0.1.0",
+  "authors": [
+    "SignpostMarv <me@signpostmarv.name>"
+  ],
+  "description": "Wrapper to localForage for storing content in self-contained silo",
+  "main": "Silo.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "localforage",
+    "silo"
+  ],
+  "license": "Apache",
+  "homepage": "https://github.com/SignpostMarv/localForage-Silo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
