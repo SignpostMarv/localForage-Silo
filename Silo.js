@@ -10,6 +10,9 @@ define([
     constructor(siloName){
       this[siloNameProp] = siloName;
     }
+    Silo(subSiloName){
+      return new Silo(this[siloNameProp] + '::' + subSiloName);
+    }
     config(options){
       localforage.config(options);
     }
