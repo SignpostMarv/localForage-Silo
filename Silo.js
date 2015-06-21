@@ -129,12 +129,12 @@ define([
             if(toNuke < 1){
               resolve();
             }else{
-            nuked = 0|0;
-            self.keys().then(function(keys){
-              for(var key of keys){
-                makeRemoveItem(toNuke)(key);
-              }
-            }, reject);
+              nuked = 0|0;
+              self.keys().then(function(keys){
+                for(var key of keys){
+                  makeRemoveItem(toNuke)(key);
+                }
+              }, reject);
             }
           },
           nukeit = function(toNuke){
